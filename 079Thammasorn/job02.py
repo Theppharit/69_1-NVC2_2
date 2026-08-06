@@ -1,0 +1,13 @@
+p1 = input("Enter Product Name 1: ")
+price1 = input("Enter Price 1: ")
+amount1 = input("Enter Sales Quantity 1: ")
+results1 = int(price1) * int(amount1)
+print("Total 1: ", results1)
+
+p2 = input("Enter Product Name 2: ")
+price2 = input("Enter Price 2: ")
+amount2 = input("Enter Sales Quantity 2: ")
+results2 = int(price2) * int(amount2)
+print("Total 2: ", results2)
+finalresults = results1 + results2
+print("Grandtotal of:", finalresults)
