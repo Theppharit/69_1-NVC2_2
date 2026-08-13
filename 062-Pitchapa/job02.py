@@ -1,17 +1,15 @@
-__name__ = "Milk"
-Milkb = input("กรอกราคานม:")
-MilkN = input("กรอกจำนวนสินค้า:")
-print("ชื่อสินค้า: "+__name__)
-print("ราคาต่อชิ้น: "+Milkb)
-print("จำนวนที่ขาย: "+MilkN)
+__name__1 = "Milk"
+print(__name__1)
+price =input("ราคาสินค้า ")
+quantity=input ("จำนวน ")
+total_price=(int(price)*int(quantity))
+print(int(price)*int(quantity))
 
-__name__ = "Cereal"
-Cerealb = input("กรอกราคาซีเลี้ยว:")
-CerealN = input("กรอกจำนวนสินค้า:")
-print("ชื่อสินค้า: "+__name__)
-print("ราคาต่อชิ้น: "+Cerealb)
-print("จำนวนที่ขาย: "+CerealN)
-print("สินค้าทั้งหมด2รายการ")
-print("ยอดรวมสินค้า")
-print(int(Milkb)*int(MilkN))
-print(int(Cerealb)*int(CerealN))
+__name__2 = "Cereal"
+print(__name__2)
+price2=input("ราคาสินค้า ")
+quantity2=input("จำนวน ")
+total_price2 =(int(price2)*int(quantity2))
+print(int(price2)*int(quantity2))
+
+print("ราคารวม",total_price+total_price2)
