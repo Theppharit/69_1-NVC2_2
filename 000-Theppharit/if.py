@@ -1,4 +1,4 @@
-price = 198
+price = int(input("กรุณากรอกจำนวนเงิน : "))
 
 if price >= 899 :
     print("เมนูพรีเมียม")
