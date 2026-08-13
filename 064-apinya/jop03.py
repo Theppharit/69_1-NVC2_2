@@ -1,10 +1,12 @@
-price = 200
+point = int(input("กรุณากรอกคะแนน"))
 
-if price >= 899 :
-    print("เมนูพรีเมี่ยม")
-elif price >= 499 :
-    print("เมนูชั้นดี")
-elif price >= 199 :
-    print("เมนูทั่วไป")
+if point >= 80 :
+    print("เกรด A")
+elif point >= 70 :
+    print("เกรด B")
+elif point >= 60 :
+    print("เกรด C")
+elif point >= 50 :
+    print("เกรด D")
 else :
-    print("กรุณากลับมาใหม่ภายหลัง")
+    print("เกรด F")
