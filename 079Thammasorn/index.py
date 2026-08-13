@@ -1,1 +1,1 @@
-print("Yoooooooo")
+print("niy")
