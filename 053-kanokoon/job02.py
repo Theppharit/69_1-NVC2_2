@@ -1,5 +1,5 @@
 neme1= input("กรอกชื่อสินค้าชิ้นที่ 1:")
-price = int(input("กรอกราคาสินค้าชิ้นที่1 1:"))
+price = int(input("กรอกราคาสินค้าชิ้นที่ 1:"))
 qty1 = int(input("กรอกราคาสินค้าชิ้นที่ 1:"))
 total1 = price * qty1
 print("total 1:", total1)
