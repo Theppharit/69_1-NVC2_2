@@ -1,4 +1,4 @@
-point = int(input("กรุณากรอกคะแนน"))
+point= int(input("กรุณากรอกคะแนน"))
 
 if point >= 80 :
     print("เกรด A")
@@ -8,5 +8,5 @@ elif point >= 60 :
     print("เกรด C")
 elif point >= 50 :
     print("เกรด D")
-else :
+elif point < 50 :
     print("เกรด F")
