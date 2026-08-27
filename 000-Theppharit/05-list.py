@@ -2,14 +2,15 @@ name1 = "b1"
 name2 = "b2"
 name3 = "b3"
 name4 = "b4"
+name5 = "b5"
 
-class2_1 = [name1, name2, name3, name4]
+class2_2 = [name1, name2, name3, name4, name5]
 
-class2_1[2] = "no name"
+# class2_2[2] = "no name"
 
-print(class2_1)
-print(class2_1[3])
+# print(class2_2)
+# print(class2_2[3])
 
-number = "9876543210"
+# number = "9876543210"
 
-print(number[5])
+# print(number[5])
