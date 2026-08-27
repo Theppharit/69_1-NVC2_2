@@ -12,6 +12,6 @@ student2 = {
     "phone": "0987666321"
 }
 
-class2_1 = [student1, student2]
+class2_2 = [student1, student2]
 
-print(class2_1)
+print(class2_2)
