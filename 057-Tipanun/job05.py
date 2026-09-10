@@ -7,4 +7,4 @@ Friend = [
 ]
 for i in range(5):
     print("ลำดับที่", i + 1,
-"ชื่อ-นามสกุล" ,Friend[i])
+"ชื่อ-นามสกุล" ,Friend[i]) 
