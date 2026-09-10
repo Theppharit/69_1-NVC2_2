@@ -1,17 +1,7 @@
-# Control Structures in Python
+number = int(input("กรอกแม่สูตรคูณ"))
+multiplier = 1
 
-# Loops in Python
-# การใช้ลูป for และ while ใน Python
-
-# count = 0
-
-# while count < 5:
-#     print("Count is:", count)
-#     count += 1
-
-
-number = 0
-
-while number <=12:
-    print("Number is:", number * 2)
-    number += 1
+while  multiplier <=12:
+    product = number * multiplier
+    print(f"{number} x {multiplier} = {product}")
+    multiplier += 1
