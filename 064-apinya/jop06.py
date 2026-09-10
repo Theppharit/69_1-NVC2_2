@@ -1,7 +1,17 @@
-number = int(input("กรุณากรอกแม่สูตรคูณ: "))
-multiplier = 1
+number = int(input("Enter number: "))
+i = 1
+while i <= 12:
+    print(f"{number} x {i} = {number * i}")
+    i += 1
+    
+number = int(input("Enter number: "))
+i = 1
+while i <= 12:
+    print(f"{number} x {i} = {number * i}")
+    i += 1
 
-while multiplier <= 12:
-    product = number * multiplier
-    print(f"{number} x {multiplier} = {product}")
-    multiplier += 1
+number = int(input("Enter number: "))
+i = 1
+while i <= 12:
+    print(f"{number} x {i} = {number * i}")
+    i += 1
