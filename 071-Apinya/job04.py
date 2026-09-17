@@ -1,18 +1,18 @@
 student1 = {
-    "name": "Apinya"
-    "lastname": "innok"
+    "name": "Apinya",
+    "lastname": "innok",
 "aage" : 16,
  "phone" : "0651134113"
 }
 student2 = {
-    "name" "kanokoon"
-    "lastname" : "Phinyophap"
+    "name" : "kanokoon",
+    "lastname" : "Phinyophap",
     "aeg": 18,
     "phome" : "0821587954"
 }
 student3 = {
-    "name": "Chanakan"
-    "lastname" : "innok"
+    "name": "Chanakan",
+    "lastname" : "innok",
     "aeg" : 17,
     "phome" : "0820688853"
 }
