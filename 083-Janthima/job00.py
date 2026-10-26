@@ -1,9 +1,8 @@
-print = float(input("กรอกราคาสินค้า: "))
-vat_rate = float(input("กรอกอัตราภาษี VAT (%): "))
+price = float(input("ป้อนราคาสินค้า: "))
+vat_rate = float(input("ป้อนอัตราภาษี VAT (%): "))
 
-vat = print * vat_rate / "บาท"
-total = print + vat
+vat = price * vat_rate / 100
+total = price + vat
 
-print("ราคาสินค้า =", print, "บาท")
-print("ภาษีมูลค่าเพิ่ม =", vat, "บาท")
-print("ราคาสุทธิรวม VAT =", total, "บาท")
+print("ภาษี VAT =", vat, "บาท")
+print("ราคาสุทธิ =", total, "บาท")
