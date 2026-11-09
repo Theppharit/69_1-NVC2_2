@@ -1,0 +1,6 @@
+value = (int(input("ใส่ราคาสินค้า:")))
+tax = (int(input("ใส่อัตราภาษี:")))
+print("ราคาสุทธฺิ:" + str(value))
+print("ภาษี:" + str(value * tax / 100))
+purchase_price = value + (value * tax / 100)
+print("ราคาสุทธิรวมภาษี:" + str(purchase_price))
