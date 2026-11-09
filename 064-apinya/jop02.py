@@ -1,12 +1,16 @@
-def vat(price, rate):
-    tax = price * rate / 100
-    return tax, price + tax
+def คำนวณ_vat(ราคา, อัตราภาษี):
+    ภาษี = ราคา * อัตราภาษี / 100
+    ราคาสุทธิ = ราคา + ภาษี
+    return ภาษี, ราคาสุทธิ
+
+
+อัตราภาษี = 7
 
 for i in range(1, 6):
-    price = float(input("ราคาสินค้า: "))
-    rate = float(input("ภาษี VAT (%): "))
+    print(f"--- สินค้าชิ้นที่ {i} ---")
+    ราคา = float(input("กรอกราคาสินค้า: "))
 
-    tax, total = vat(price, rate)
-    
-    print("VAT =", tax)
-    print("ราคาสุทธิ =", total)
+    ภาษี, ราคาสุทธิ = คำนวณ_vat(ราคา, อัตราภาษี)
+
+    print(f"ภาษี VAT {อัตราภาษี}%: {ภาษี:,.2f} บาท")
+    print(f"ราคาสุทธิ (รวม VAT): {ราคาสุทธิ:,.2f} บาท\n")
