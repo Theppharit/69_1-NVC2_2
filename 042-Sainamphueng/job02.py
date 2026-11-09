@@ -1,12 +1,13 @@
-def vat ( price , rate ) :
-    tex = price * rate / 100
-    return tax , price + tax
-
-for i in range(1, 6):
-    price = float(input("ราคาสินค้า: "))
-    rate = float(input("ภาษี VAT (%): "))
-
-    tax, total = vat(price, rate)
+def Products(name, price):
+    print("ชื่อสินค้า:", name)
+    print("ราคาสินค้า:", price)
+    print("ภาษี VAT:", price * 7 / 100)
+    print("ราคาสุทธิ", price + (price * 7 /100))
+    print("----------------------")
     
-    print("VAT =", tax)
-    print("ราคาสุทธิ =", total)
+    
+Products("ขนม", 40)
+Products("น้ำ", 20)
+Products("ปากกา", 10)
+Products("สมุด", 30)
+Products("ดินสอ", 15)
