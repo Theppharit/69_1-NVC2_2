@@ -1,2 +1,0 @@
-def Products(name, priece):
-    
