@@ -11,5 +11,3 @@ total2 = price2 * qty2
 print("ยอดรวม 2: ",total2 )
 Grandtotal = total1 + total2 
 print("ยอดรวมทั้งหมด : ", Grandtotal)
-
-                   
