@@ -1,17 +1,19 @@
 def calculate_vat(price, vat_rate):
-    vat = price * vat_rate / 100
-    net_price = price + vat
-    return vat, net_price
+    vat_amount = price * (vat_rate / 100)
+    total_price = price + vat_amount
+    return vat_amount, total_price
+
+# วนลูปรับค่าและคำนวณสินค้าจำนวน 5 ชิ้น
 for i in range(1, 6):
-    print("\nสินค้า", i)
-
-    price = float(input("ป้อนราคาสินค้า: "))
-    vat_rate = float(input("ป้อนอัตราภาษี VAT (%): "))
-
-    # เรียกใช้ฟังก์ชัน
-    vat, net_price = calculate_vat(price, vat_rate)
-
+    print(f"\n--- สินค้าชิ้นที่ {i} ---")
+    
+    # รับค่าจากผู้ใช้
+    price = float(input("กรุณากรอกราคาสินค้า (บาท): "))
+    vat_rate = float(input("กรุณากรอกอัตราภาษี VAT (%): "))
+    
+    # เรียกใช้ฟังก์ชันคำนวณ
+    vat, total = calculate_vat(price, vat_rate)
+    
     # แสดงผลลัพธ์
-    print("ราคาสินค้า:", price, "บาท")
-    print("ภาษี VAT:", vat, "บาท")
-    print("ราคาสุทธิรวม VAT:", net_price, "บาท")
+    print(f"ภาษี VAT ({vat_rate}%): {vat:,.2f} บาท")
+    print(f"ราคาสุทธิ (รวม VAT): {total:,.2f} บาท")
