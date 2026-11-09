@@ -3,4 +3,10 @@ def vat ( price , rate ) :
     return tax , price + tax
 
 for i in range(1, 6):
-    price = float
+    price = float(input("ราคาสินค้า: "))
+    rate = float(input("ภาษี VAT (%): "))
+
+    tax, total = vat(price, rate)
+    
+    print("VAT =", tax)
+    print("ราคาสุทธิ =", total)
