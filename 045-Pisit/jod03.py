@@ -1,5 +1,5 @@
-def Myfriend(hello ,*memders) :
-    for name in memders :
+def Badfriend(hello ,*members) :
+    for name in members :
         print(hello, name)
 
-Myfriend("สวัสดี","ธนกร","เอกภิสักก์","พิชชาภา","พิสิษฐ์","จิรกานต์")
+Badfriend("สวัสดี","ธนกร","เอกภิสักก์","พิชชาภา","พิสิษฐ์","จิรการต์")
