@@ -1,5 +1,5 @@
-def Myshinchan(hrllo,*members) :
+def Myfriend (hrllo,*members) :
    for name in members :
        print("hello", name)
     
-Myshinchan("hello","nukinck","Tam","namtan","Mew","Pin")
+Myfriend("hello","nukinck","Tam","namtan","Mew","Pin")
