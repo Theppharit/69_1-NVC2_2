@@ -1,6 +1,6 @@
-def Myfriends(hello ,*members) :
+def Cambodaigang(hello ,*members) :
     for name in members :
         
         print(hello, name)
         
-Myfriends("hello" , "Few" , "Name" , "Beer" , "Cheet" , "Aom")
+Cambodaigang("hello" , "Few" , "Name" , "Beer" , "Cheet" , "Aom")
