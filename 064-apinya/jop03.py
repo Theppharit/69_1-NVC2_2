@@ -3,4 +3,3 @@ def myfriendsforever(hii , *members):
         print(hii , name)
     
 myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
-
