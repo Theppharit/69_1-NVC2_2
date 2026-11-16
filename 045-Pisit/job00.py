@@ -1,13 +1,6 @@
-name1 = input("กรอกชื่อสินค้า 1: ")
-price1= int(input("กรอกราคาต่อชิ้น 1:"))
-qty1=int(input("กรอกจำนวนที่ขาย 1:"))
-total1 = price1 * qty1
-print("รวมยอดขาย 1: ", total1)
-
-name2 = input("กรอกชื่อสินค้า 2: ")
-price2= int(input("กรอกราคาต่อชิ้น 2:"))
-qty2=int(input("กรอกจำนวนที่ขาย 2:"))
-total2 = price2 * qty2
-print("รวมยอดขาย 2: ", total2)
-Grandtotal = total1 + total2
-print("รวมยอดขายทั้งหมด : ", Grandtotal)
+value = (int(input("ใส่ราคาสินค้า:")))
+tax = (int(input("ใส่อัตราภาษี:")))
+print("ราคาสุทธฺิ:" + str(value))
+print("ภาษี:" + str(value * tax / 100))
+purchase_price = value + (value * tax / 100)
+print("ราคาสุทธิรวมภาษี:" + str(purchase_price))
