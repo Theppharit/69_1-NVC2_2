@@ -1,3 +1,4 @@
+
 def myfriendsforever(hii , *members):
     for name in members:
         print(hii, name)
