@@ -4,7 +4,7 @@ def vat(price, rate):
 
 for i in range(1, 6):
     price = float(input("ราคาสินค้า: "))
-    rate = float(input("ภาษี VAT (%): "))
+    rate = float(input("ภาษี VAT (7%): "))
 
     tax, total = vat(price, rate)
     
