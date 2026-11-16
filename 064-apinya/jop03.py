@@ -1,5 +1,6 @@
-def Pat(hii , *members):
+def myfriendsforever(hii , *members):
     for name in members:
-        print(hii, name)
+        print(hii , name)
     
-Pat("hii", "beer", "aom", "numsai", "name", "few")
+myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
+
