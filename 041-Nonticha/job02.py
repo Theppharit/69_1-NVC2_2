@@ -10,4 +10,4 @@ for i in range(1, 6):
     tax, total = vat(price, rate)
     
     print("VAT =", tax)
-    print("ราคาสุทธิ =", total)
+    print("ราคาสุทธิ =", total) 
