@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 def myfriendsforever(hii , *members):
     for name in members:
@@ -57,12 +58,15 @@ Pat("hii", "beer", "aom", "numsai", "name", "few")
 >>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
 =======
 >>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
 def myfriendsforever(hii , *members):
     for name in members:
         print(hii , name)
     
 myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +112,8 @@ myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
 >>>>>>> cebc047c20461675f8facf57da819336bafb32e8
 =======
 >>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
 =======
 >>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
 =======
