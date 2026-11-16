@@ -1,20 +1,143 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
-def myfriends(hii , *members):
+
+def myfriendsforever(hii , *members):
     for name in members:
         print(hii, name)
     
-myfriends("hii", "beer", "cheet", "numsai", "name", "few")
+myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
 =======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+def myfriendsforever(hii , *members):
+    for name in members:
+        print(hii, name)
+    
+myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
 =======
->>>>>>> 9dbad79104e81cab5472bc5837143a752a22e0ec
+<<<<<<< HEAD
+<<<<<<< HEAD
 def Pat(hii , *members):
     for name in members:
         print(hii, name)
     
-<<<<<<< HEAD
 Pat("hii", "beer", "aom", "numsai", "name", "few")
->>>>>>> 2740eb84e9c36373af61fb2590e52c712f19fd0a
 =======
-Pat("hii", "beer", "aom", "numsai", "name", "few")
->>>>>>> 9dbad79104e81cab5472bc5837143a752a22e0ec
+
+=======
+>>>>>>> 93070ba550c2db6764a6f970672c574f18d8f864
+=======
+>>>>>>> 93070ba550c2db6764a6f970672c574f18d8f864
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+def myfriendsforever(hii , *members):
+    for name in members:
+        print(hii , name)
+    
+myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+def myfriendsforever(hii , *members):
+    for name in members:
+        print(hii, name)
+    
+myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
+>>>>>>> c994ce1134ee287cfd69759c02ee0dc893dace0e
+>>>>>>> 00dec760956452a4ff8ee68dc6c9344e1397d6ee
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 93070ba550c2db6764a6f970672c574f18d8f864
+=======
+>>>>>>> 93070ba550c2db6764a6f970672c574f18d8f864
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> cebc047c20461675f8facf57da819336bafb32e8
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+=======
+>>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
+>>>>>>> 03f43a19123bbc003ad2646b0b55c55f973398b1
