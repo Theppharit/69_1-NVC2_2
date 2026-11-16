@@ -1,9 +1,6 @@
-def myFunction(*num):
-    total = num[0]
-    for i in num[1:]:
-        total = total / i
-        print("ผมหาร = ", total)
-        
-myFunction(100, 2, 5, 2)
+def myfuction(*num):
+    total = 0
+    total = (num[0]*num[1]) + num[2]
+    print(total)
 
-    
+myfuction(2, 5, 3)
