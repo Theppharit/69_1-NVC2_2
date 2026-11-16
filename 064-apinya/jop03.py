@@ -5,6 +5,8 @@ def myfriendsforever(hii , *members):
         print(hii, name)
     
 myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,3 +143,4 @@ myfriendsforever("hii", "beer", "cheet", "numsai", "name", "few")
 =======
 >>>>>>> ecde76e4f7405eb8316ca5c57a15306c26a447f3
 >>>>>>> 03f43a19123bbc003ad2646b0b55c55f973398b1
+>>>>>>> a97fae5a5ac8dcf904b24b6eaf910f644033a6bc
