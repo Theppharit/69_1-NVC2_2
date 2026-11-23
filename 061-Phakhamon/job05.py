@@ -2,7 +2,7 @@ def info (**detail) :
     print("ชื่อ", detail["fname"])
     print("นามสกุล", detail["lname"])
     print("ชื่อเล่น", detail["nickname"])
-    print("สิ่งที่ชอบ", detail["myfavorite"])
-    print("งานอดิเรก", detail["hobby"])
+    print("เบอร์โทร", detail["phone"])
+    print("วันเดือนปีเกิด", detail["date"])
     
-info (fname = "ภคมน",lname = "ยังจรูญ",nickname = "เฟรชชี่", myfavorite = "แมว/ของกิน" , hobby = "นอน")
+info (fname = "ไมเคิล",lname = "สมพร",nickname = "สุข", phone = "0800088800" , date = "23 พฤศจิกายน 2569")
