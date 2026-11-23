@@ -3,4 +3,4 @@ def my_function(*numbers) :
     total = (numbers[0]-numbers[1])/numbers[2]
     print(total)
 
-my_function(20,15,50)
+my_function(20,10,50)

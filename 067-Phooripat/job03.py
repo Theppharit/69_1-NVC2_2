@@ -1,5 +1,5 @@
-def MyGang(hello ,*members):
-    for name in members :
-        print(hello, name)
-
-MyGang("hello","Name","Gun","Cheet","Aom","beer")
+def Gang(Hello , *members):
+    for name in members:
+        print(Hello, name)
+    
+Gang("Hello", "Beer", "Aom", "Gun", "Cheet", "Numsai")
