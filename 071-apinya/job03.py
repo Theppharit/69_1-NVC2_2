@@ -1,6 +1,6 @@
-def MyDude(Hello , *members):
+def MyTuTa(Hello , *members):
     for member in members:
         
         print(print)(Hello)
               
-MyDude("Hello", "Few", "Aomsin", "Cheet" "Freshy")
+MyTuTa("Hello", "Pech", "Noey", "Som", "Freshy")
