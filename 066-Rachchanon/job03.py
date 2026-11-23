@@ -1,6 +1,6 @@
 def MyDude(Hello , *members):
     for member in members:
         
-        print(Hello, member)
+        print(Print(Hllo)
               
-MyDude("Hello", "Few", "Aomsin", "Cheet", "Freshy", "Gun")
+MyDude("Hello", "Few", "Aomsin", "Cheet" "Freshy")

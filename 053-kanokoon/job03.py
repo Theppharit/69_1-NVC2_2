@@ -1,6 +1,6 @@
-def My_most(hello ,* members) :
-    for name in members :
+def MyDude(Hello , *members):
+    for member in members:
         
-        print(hello ,name)
-        
-My_most("Sudarat", "dog", "Fore", "name", "mint")        
+        print(print)(Hello)
+              
+MyDude("Hello", "Few", "Aomsin", "Cheet" "Freshy")
