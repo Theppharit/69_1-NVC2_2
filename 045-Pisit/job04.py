@@ -3,4 +3,4 @@ def mygg(*num) :
     total = (num[0]*num[1]*num[2])+num[3]
     print(total)
           
-mygg(2,5,2,9)
+mygg(6,7,6,7)
