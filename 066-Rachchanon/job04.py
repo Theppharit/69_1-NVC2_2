@@ -1,6 +1,5 @@
-def my_function(*numbers):
+def my_fuction(*num) :
     total = 0
-    total = (numbers[0]*numbers[1]) / numbers[2]
+    total = (num[0]*num[1])/num[2]
     print(total)
-    
-my_function(100, 10, 5)
+my_fuction(100, 10 , 5)

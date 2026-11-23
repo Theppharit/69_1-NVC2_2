@@ -1,6 +1,5 @@
-def MyDude(Hello , *members):
-    for member in members:
-        
-        print(Hello, member)
-              
-MyDude("Hello", "Few", "Aomsin", "Cheet", "Freshy", "Gun")
+def Dude(Hello , *members):
+    for name in members:
+        print(Hello, name)
+    
+Dude("Hello", "Beer", "Aom", "Gun", "Cheet", "Few")
