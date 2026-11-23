@@ -1,20 +1,25 @@
-# สร้างฟังก์ชันสำหรับคำนวณ VAT และราคาสุทธิ
-def calculate_vat(price, vat_rate):
+
+def calcilate_vat(price, vat_rate):
     vat_amount = price * (vat_rate / 100)
     total_price = price + vat_amount
     return vat_amount, total_price
 
-# วนลูปรับค่าและคำนวณสินค้าจำนวน 5 ชิ้น
-for i in range(1, 6):
-    print(f"\n--- สินค้าชิ้นที่ {i} ---")
+def main ():
+    print("---โปรแกรมคำนวนภาษี  VAT และราคาสุทธิ (จำนวน5ชิ้น)---")
     
-    # รับค่าจากผู้ใช้
-    price = float(input("กรุณากรอกราคาสินค้า (บาท): "))
-    vat_rate = float(input("กรุณากรอกอัตราภาษี VAT (%): "))
     
-    # เรียกใช้ฟังก์ชันคำนวณ
-    vat, total = calculate_vat(price, vat_rate)
-    
-    # แสดงผลลัพธ์
-    print(f"ภาษี VAT ({vat_rate}%): {vat:,.2f} บาท")
-    print(f"ราคาสุทธิ (รวม VAT): {total:,.2f} บาท")
+    vat_rate = float(input("ป้อนอัตราภาษี VAT (%  เช่น 7): "))
+
+
+    for i in range(1, 6):
+        print(f"\n[ชิ้นที่{i}]")
+        price = float(input("ป้อนราคาสินค้า: "))
+
+        vat_amount, total_price = calcilate_vat(price, vat_rate)
+
+        print(f" - ภาษี VAT: {vat_amount:.2f} บาท")  
+        print(f" - ราคาสุทธิ (รวม VAT):{total_price:.2f}บาท")
+
+if __name__ == "__main__":
+   main()    
+
